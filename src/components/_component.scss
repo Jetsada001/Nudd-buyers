@@ -1,0 +1,163 @@
+.component_search_container{
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0px 12px 0px 12px;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+.component_dropdown{
+  box-sizing: border-box;
+
+  /* Auto layout */
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  
+  width: 120px;
+  height: 40px;
+  
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;  
+
+}
+
+.component_dropdown_view select{
+  box-sizing: border-box;
+
+  /* Auto layout */
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  
+  width: 153px;
+  height: 40px;
+  
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+select{
+  box-sizing: border-box;
+
+  /* Auto layout */
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  
+  width: 120px;
+  height: 40px;
+  
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  
+}
+
+
+
+
+.component_dropdown_sale select{ 
+  box-sizing: border-box;
+
+  /* Auto layout */
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  
+  width: 128px;
+  height: 40px;
+  
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.component_search_input_box{
+  width: -moz-calc(100% - 24px);
+  width: -webkit-calc(100% - 24px);
+  width: calc(100% - 24px);
+  border: none;
+}
+.component_search_icon_container{
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* .component_dropdown_type{
+    background-color: green;
+    display: flex;
+    width: 100%;
+    border: none;
+    background-color: aqua;
+  } */
+
+  .component_dropdown_label {
+    font-family: 'FC Iconic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    
+    color: #777777;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+  }
+
+  .package_search_sort_bar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    height: 60px;
+    /* position: absolute; */
+  }

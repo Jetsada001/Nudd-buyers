@@ -1,0 +1,160 @@
+
+
+.table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    margin-top: 16px;
+    margin-left: 24px;
+    /* background-color: chocolate; */
+  }
+  .table table {
+    background-color: #fff;
+    border-collapse: collapse;
+    border-radius: 16px;
+    font-size: 1em;
+    color: black;
+    /* overflow: hidden; */
+    /* width: auto; */
+    width: 100%;
+    text-align: start;
+    margin-bottom: 50px;
+  }
+  
+  .table thead {
+    background-color: #e8ebed;
+    font-family: 'FC Iconic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 171% */
+  
+    /* display: flex;
+    align-items: center; */
+  
+    /* Text/Dark Grey */
+  
+    color: #9f99a3;
+  }
+  .table th {
+    letter-spacing: 0.3px;
+    height: 48px;
+    /* text-shadow: 0 1px 1px #2b2a466b; */
+    /* text-align: start; */
+  }
+
+  .table p {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    // position: absolute;
+    justify-content: center;
+    // background-color: aqua;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #fff;
+    height: 48px;
+    /* z-index: 50px; */
+  }
+  .table th:nth-child(1),
+  .table td:nth-child(1) {
+    /* background-color: red; */
+    width: 13.7%;
+  }
+  .table th:nth-child(2),
+  .table td:nth-child(2) {
+    /* background-color: red; */
+    width: 10.27%;
+  }
+  .table th:nth-child(3),
+  .table td:nth-child(3) {
+    /* background-color: red; */
+    width: 6.84%;
+  }
+  .table th:nth-child(4),
+  .table td:nth-child(4) {
+    /* background-color: red; */
+    width: 9%;
+  }
+  .table th:nth-child(5),
+  .table td:nth-child(5) {
+    /* background-color: red; */
+    width: 7.5%;
+  }
+  .table th:nth-child(6).table td:nth-child(6) {
+    /* background-color: red; */
+    width: 7.5%;
+  }
+  .table th:nth-child(7),
+  .table td:nth-child(7) {
+    /* background-color: red; */
+    width:9%;
+  }
+  .table th:nth-child(8),
+  .table td:nth-child(8) {
+    /* background-color: red; */
+    width:10.27%;
+  }
+  .table th:nth-child(9),
+  .table td:nth-child(9) {
+    /* background-color: red; */
+    width:9%;
+  }
+  .table th:nth-child(10),
+  .table td:nth-child(10) {
+    /* background-color: red; */
+    width:9%;
+  }
+  .table th:nth-child(10),
+  .table td:nth-child(10) {
+    /* background-color: red; */
+    width:9%;
+  }
+
+.table tbody:nth-child(even){
+  /* display: flex; */
+  height: 480px;
+  text-align: center;
+  /* background-color: aqua; */
+}
+
+.open_detail_container{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  // background-color: aqua;
+.open_detail{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8px;
+  gap: 8px;
+  
+  width: 128px;
+  height: 88px;
+  
+  background: #FFFFFF;
+  border-radius: 8px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;  
+  position: absolute;
+  z-index: 90;
+  right: 50px;
+  bottom: -80px;
+  // background-color: springgreen;
+  p{
+    background-color: red;
+  }
+
+}
+
+}

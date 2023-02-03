@@ -1,0 +1,84 @@
+.staff_container_page {
+  display: flex;
+  width: 100%;
+  /* background-color: red; */
+}
+
+.staff_component_page {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.sidebar_staff_active {
+  position: relative;
+  width: 16.67%;
+  height: 100vh;
+  background: #faf9f6;
+  border: 8px solid #faf9f6;
+}
+.sidebar_staff_inactive {
+  position: relative;
+  width: 5.56%;
+  height: 100vh;
+  background: #faf9f6;
+  border: 8px solid #faf9f6;
+}
+
+.close_open_staff_sidebar {
+  display: flex;
+  align-items: flex-start;
+  /* background-color: rebeccapurple; */
+  position: absolute;
+  top: 10px;
+  right: -23px;
+  width: 32px;
+  height: 32px;
+}
+.close_open_staff_sidebar img {
+  width: 32px;
+  height: 32px;
+}
+
+.menulist_staff {
+  display: flex;
+  height: 55px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  /* background-color: red; */
+}
+.menulist_staff:hover {
+  background-color: #dad9dd;
+  border-radius: 8px;
+}
+.menulist_staff p {
+  font-family: "FC Iconic";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+
+  color: #717171;
+}
+
+.menulist_staff_active {
+  background: #6354e4;
+  border-radius: 8px;
+}
+
+.menulist_staff_active p {
+  color: #faf9f6;
+}
+.menulist_staff_active img {
+  filter: brightness(0) invert(1);
+}
+
+.menulist_staff p {
+  text-align: start;
+}
+
+.menu_staff_name {
+  width: 50%;
+  /* background-color: aliceblue; */
+}

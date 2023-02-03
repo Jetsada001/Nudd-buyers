@@ -1,0 +1,163 @@
+.register_buyer_container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.register_buyer_box {
+  width: 41.111%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.register_buyer_title_text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  padding: 0px 0px 32px 0px;
+  border-bottom: 1px solid #e7ecef;
+}
+
+.register_logo_name_app {
+  width: 100%;
+  height: 40px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.register_logo_name_app img {
+  width: 40px;
+  height: 40px;
+}
+.register_logo_name_app h1 {
+  font-family: "FC Iconic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: center;
+
+  color: #202020;
+}
+
+.register_welcome_title_text h2 {
+  font-family: "FC Iconic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.register_buyer_input_value_text_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  margin-top: 24px;
+
+  border-bottom: 1px solid #e7ecef;
+  gap: 24px;
+}
+.register_buyer_input_value_text {
+  display: flex;
+  gap: 16px;
+}
+.register_buyer_input_value_text label {
+  text-align: end;
+  font-family: "FC Iconic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #6b7280;
+  width: 33.78%;
+}
+.register_buyer_input_value_text input {
+  width: 66.22%;
+  background: #f9fafb;
+  /* Interactive/04 */
+
+  border: 1px solid #e7ecef;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.register_buyer_checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.register_buyer_checkbox p {
+  font-family: "FC Iconic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  text-decoration-line: underline;
+
+  color: #2663ff;
+}
+
+.register_buyer_button {
+  width: 100%;
+  margin-top: 24px;
+}
+.button_register_buyer {
+  width: 100%;
+  height: 40px;
+  padding: 4px 16px;
+  background: #6354e4;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 99px;
+
+  /* text */
+  font-family: "FC Iconic";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* display: flex; */
+  /* align-items: center; */
+
+  /* Text/white */
+
+  color: #faf9f6;
+}
+
+.register_buyer_link_page_login p {
+  font-family: "FC Iconic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  text-decoration-line: underline;
+
+  color: #2663ff;
+}

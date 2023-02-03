@@ -1,0 +1,97 @@
+.package{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction:column;
+    /* justify-content: space-between; */
+    background-color: pink;
+}
+.package_title{
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: space-between;
+    /* position: absolute; */
+    width: 100%;
+    height: 100px;
+    padding:32px 24px 20px 24px;
+
+    
+
+    border-bottom: 1px solid #cecece ;
+    /* identical to box height, or 125% */
+    
+    
+    color: #333333;
+}
+
+.package_title_text{
+font-family: 'FC Iconic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+
+
+.package_add{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 16px;
+    gap: 6px;
+    
+    width: 147px;
+    height: 40px;
+    
+    background: #6354E4;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 20px;
+    cursor: pointer;
+    /* Inside auto layout */
+}
+.package_add p{
+    width: 85px;
+    height: 24px;
+    
+    font-family: 'FC Iconic';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* Text/white */
+    
+    color: #FAF9F6;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.package_search_bar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding:20px 24px 16px 24px;
+    
+    /* position: absolute; */
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+}

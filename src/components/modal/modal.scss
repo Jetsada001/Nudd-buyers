@@ -1,0 +1,138 @@
+$width_modal_container: 52.92%;
+$height_modal_container: 800px;
+$padding_modal_container: 24px;
+$border_radius_modal_container: 16px;
+$width_field: 35.039%;
+$width_input: 64.961%;
+
+.page_super_staff_container {
+  display: flex;
+  position: relative;
+  width: 100%;
+
+  .page_staff_container {
+    width: 100%;
+    .page_component_container {
+      width: 100%;
+    }
+    .page_component_container_active {
+      opacity: 0.24;
+    }
+  }
+
+  .super_modal_container_active {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.24);
+    opacity: 1;
+  }
+
+  .super_modal_container {
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    position: absolute;
+    .modal_container {
+      display: flex;
+      flex-direction: column;
+
+      width: $width_modal_container;
+      height: $height_modal_container;
+      padding: $padding_modal_container;
+      border-radius: $border_radius_modal_container;
+      background: #ffffff;
+      .modal_title_text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 24px;
+        margin-bottom: 24px;
+        border-bottom: 1px solid #e7ecef;
+
+        h1 {
+          font-family: "FC Iconic";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+          /* identical to box height, or 120% */
+
+          color: #000000;
+        }
+      }
+      .modal_description_value_container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 624px;
+        gap: 16px;
+
+        // overflow-y: scroll;
+
+        .modal_description_value_text_container {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          h2 {
+            width: $width_field;
+            font-family: "FC Iconic";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* identical to box height, or 150% */
+
+            text-align: right;
+
+            color: #6b7280;
+          }
+          input {
+            width: $width_input;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 8px 12px 8px 8px;
+            gap: 8px;
+            isolation: isolate;
+
+            height: 40px;
+
+            background: #dadada;
+            /* Interactive/04 */
+
+            border: 1px solid #e7ecef;
+            border-radius: 8px;
+          }
+          select {
+            width: $width_input;
+            padding: 8px 12px 8px 8px;
+            height: 40px;
+            gap: 8px;
+            /* Neutral/F */
+
+            background: #ffffff;
+            /* Interactive/04 */
+            outline: 0;
+            border: 1px solid #e7ecef;
+            border-radius: 8px;
+
+            font-family: "FC Iconic";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            /* identical to box height, or 150% */
+
+            color: #8e9094;
+          }
+          select::after {
+            content: "";
+          }
+        }
+      }
+    }
+  }
+}

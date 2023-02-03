@@ -1,0 +1,100 @@
+.navbar_buyer_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 64px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #cccccc;
+  position: relative;
+}
+.navbar_buyer_container h1 {
+  font-family: "FC Iconic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+
+  display: flex;
+  align-items: center;
+
+  color: #202020;
+}
+.navbar_buyer_container h2 {
+  font-family: "FC Iconic";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #6b7280;
+}
+
+.navbar_buyer_left {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding-left: 1.67%;
+}
+.navbar_buyer_left p {
+  font-family: "FC Iconic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+
+  display: flex;
+  align-items: center;
+
+  color: #202020;
+}
+
+.navbar_buyer_left img,
+.navbar_buyer_right img {
+  width: 48px;
+  height: 48px;
+}
+
+.navbar_buyer_right {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding-right: 2.22%;
+}
+.navbar_buyer_right h2:hover,
+.navbar_buyer_right img:hover {
+  cursor: pointer;
+}
+.navbar_buyer_right_date_now {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  /* height: 48px; */
+
+  /* background-color: aqua; */
+}
+.navbar_buyer_time {
+  height: 24px;
+}
+.navbar_buyer_right_date_now p {
+  font-family: "FC Iconic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: end;
+  color: #000000;
+}
+
+.homepage_buyer {
+  display: flex;
+  width: 100%;
+  left: 0px;
+}

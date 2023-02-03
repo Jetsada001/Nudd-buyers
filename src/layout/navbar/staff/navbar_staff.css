@@ -1,0 +1,59 @@
+.navbar_staff {
+  width: 100%;
+  height: 64px;
+  
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #cccccc;
+}
+
+.navbar_staff_left {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding-left: 1.67%;
+}
+
+.navbar_staff_left_img img {
+  width: 48px;
+  height: 48px;
+}
+
+.navbar_staff_left_name_app p {
+  font-family: "FC Iconic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 10px;
+  /* or 120% */
+
+  color: #202020;
+}
+
+.navbar_staff_right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-right: 2.22%;
+}
+
+.navbar_staff_right_date_now p {
+  font-family: "FC Iconic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: end;
+  /* identical to box height, or 150% */
+
+  color: #000000;
+}
+
+.navbar_staff_right_icon_logout img {
+  width: 48px;
+  height: 48px;
+}
