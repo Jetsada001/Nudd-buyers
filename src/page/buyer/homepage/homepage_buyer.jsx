@@ -28,7 +28,7 @@ function Homepage_buyer() {
               className="register_buyer"
               onClick={() => navigate("/register")}
             >
-              ลงชื่อเข้าใช้
+              สมัครสมาชิก
             </button>
           </div>
           <div className="homepage_button_login">

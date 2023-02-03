@@ -16,7 +16,7 @@ import Navbar_staff from "../layout/navbar/staff/navbar_staff";
 import Modal_context from "../context/modal/modal_context";
 
 function Private_route() {
-  const [role, setRole] = useState("staff");
+  const [role, setRole] = useState("buyer");
   const [modal, setModal] = useState(false);
 
   // call apii
@@ -43,7 +43,7 @@ function Private_route() {
                     <page.page />
                   ) : (
                     <>
-                      {role === "buyer" ? (
+                      {role === "buyer" && (
                         <>
                           {page.url === "/" ? (
                             <Navbar_buyer background="#333333" height="832px">
@@ -55,35 +55,7 @@ function Private_route() {
                             </Nav_sidebar_buyer>
                           )}
                         </>
-                      ) : (
-                        <>
-                          {page.url === "/staff/login" ? (
-                            <Navbar_staff>
-                              <page.page />
-                            </Navbar_staff>
-                          ) : (
-                            <>
-                              {modal ? (
-                                <Modal_create_license
-                                  children_modal={
-                                    <page.modal_name
-                                      onClose={() => setModal(false)}
-                                    />
-                                  }
-                                >
-                                  <Nav_sidebar_staff>
-                                    <page.page />
-                                  </Nav_sidebar_staff>
-                                </Modal_create_license>
-                              ) : (
-                                <Nav_sidebar_staff>
-                                  <page.page onOpen={() => setModal(true)} />
-                                </Nav_sidebar_staff>
-                              )}
-                            </>
-                          )}
-                        </>
-                      )}
+                      ) }
                     </>
                   )}
                 </>
